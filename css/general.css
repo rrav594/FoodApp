@@ -52,12 +52,14 @@ Default: 9px
 html {
   /* Percentage of user's browser fon-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 /*******************/
 /* GENERAL RE-USABLE COMPONENTS */
@@ -107,7 +109,7 @@ body {
 }
 .heading-secondary {
   font-size: 4.4rem;
-  line-height: 1.2rem;
+  line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 .heading-tertiary {
